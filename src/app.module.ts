@@ -8,6 +8,7 @@ import { ClsModule } from 'nestjs-cls';
 @Module({
   imports: [
     ConfigModule.forRoot({
+      envFilePath: [`config/.env.${process.env.NODE_ENV}`, 'config/.env'],
       load: [configuration],
       isGlobal: true
     }),

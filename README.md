@@ -9,5 +9,8 @@ This is a Node.js template repo which base on [NestJS](https://docs.nestjs.com/)
 
 # usage
 
-`git clone https://github.com/zshnb/nest-template`
+```shell
+git clone https://github.com/zshnb/nest-template
 npm install
+```
+
